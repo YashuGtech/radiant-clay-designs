@@ -357,7 +357,7 @@ function WalletTab({
 }
 
 function TabBar({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
-  const items: { id: Tab; label: string; Icon: (p: { className?: string }) => JSX.Element }[] = [
+  const items: { id: Tab; label: string; Icon: (p: { className?: string }) => React.ReactElement }[] = [
     { id: "home", label: "Home", Icon: ClayHome },
     { id: "refer", label: "Refer", Icon: ClayUsers },
     { id: "wallet", label: "Wallet", Icon: ClayWallet },
