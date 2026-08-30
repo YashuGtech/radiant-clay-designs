@@ -163,7 +163,7 @@ function BalanceCard({ label, value, sub }: { label: string; value: number; sub:
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
     <h2 className="flex items-center gap-2 px-1 font-display text-lg font-bold">
-      <span className="size-3 rounded-md bg-[var(--gradient-mint)]" />
+      <span className="size-3 rounded-md fill-mint" />
       {children}
     </h2>
   );
@@ -197,7 +197,7 @@ function HomeTab({
         </p>
         <button
           onClick={onAddCard}
-          className="clay-press w-full rounded-full bg-[var(--gradient-primary)] py-4 font-display text-base font-bold uppercase tracking-wide text-primary-foreground shadow-[0_12px_26px_-10px_color-mix(in_oklab,var(--primary)_70%,transparent)]"
+          className="clay-press w-full rounded-full fill-primary py-4 font-display text-base font-bold uppercase tracking-wide text-primary-foreground shadow-[0_12px_26px_-10px_color-mix(in_oklab,var(--primary)_70%,transparent)]"
         >
           <Sparkles className="mr-2 inline size-5" />
           Get a card
@@ -259,7 +259,7 @@ function ReferTab({ balance, copied, onCopy }: { balance: number; copied: boolea
         <h2 className="font-display text-xl font-bold">How it works</h2>
         {steps.map((s, i) => (
           <div key={s} className="flex items-start gap-3">
-            <span className="clay-sm grid size-9 shrink-0 place-items-center rounded-full bg-[var(--gradient-mint)] font-display text-sm font-bold text-white">
+            <span className="clay-sm grid size-9 shrink-0 place-items-center rounded-full fill-mint font-display text-sm font-bold text-white">
               {i + 1}
             </span>
             <p className="pt-1.5 text-sm leading-snug text-muted-foreground">{s}</p>
@@ -322,7 +322,7 @@ function WalletTab({
         />
         <button
           onClick={onWithdraw}
-          className="clay-press w-full rounded-full bg-[var(--gradient-mint)] py-4 font-display text-base font-bold uppercase tracking-wide text-white shadow-[0_12px_26px_-10px_color-mix(in_oklab,var(--mint)_75%,transparent)]"
+          className="clay-press w-full rounded-full fill-mint py-4 font-display text-base font-bold uppercase tracking-wide text-white shadow-[0_12px_26px_-10px_color-mix(in_oklab,var(--mint)_75%,transparent)]"
         >
           <ArrowUp className="mr-2 inline size-5" />
           Withdraw

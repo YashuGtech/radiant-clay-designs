@@ -260,3 +260,13 @@
     letter-spacing: -0.02em;
   }
 }
+
+@utility fill-primary {
+  background-image: var(--gradient-primary);
+  color: var(--primary-foreground);
+}
+
+@utility fill-mint {
+  background-image: var(--gradient-mint);
+  color: oklch(1 0 0);
+}
