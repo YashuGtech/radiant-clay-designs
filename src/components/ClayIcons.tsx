@@ -66,8 +66,8 @@ export function ClayWallet({ className }: IconProps) {
       <Defs id="wal" />
       <rect x="7" y="14" width="50" height="38" rx="13" fill="url(#wal-a)" />
       <rect x="7" y="14" width="50" height="17" rx="12" fill="url(#wal-c)" opacity="0.5" />
-      <path d="M38 27h20v12H38a6 6 0 0 1 0-12Z" fill="oklch(1 0 0 / 0.92)" />
-      <circle cx="44" cy="33" r="3.4" fill="var(--primary)" />
+      <path d="M40 28h18v10H40a5 5 0 0 1 0-10Z" fill="oklch(1 0 0 / 0.92)" />
+      <circle cx="46" cy="33" r="3" fill="var(--primary)" />
     </svg>
   );
 }
