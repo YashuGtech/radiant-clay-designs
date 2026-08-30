@@ -59,7 +59,7 @@ export function ScratchCard({ amount, onRevealed }: Props) {
 
   return (
     <div className="relative aspect-square w-full overflow-hidden rounded-3xl clay">
-      <div className="flex h-full w-full flex-col items-center justify-center gap-1 fill-mint">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-1 clay-mint">
         <span className="font-display text-xs font-semibold uppercase tracking-widest text-white/80">You won</span>
         <span className="font-display text-3xl font-extrabold text-white drop-shadow-sm">
           ₹{amount.toFixed(2)}

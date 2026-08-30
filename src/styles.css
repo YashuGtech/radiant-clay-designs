@@ -261,12 +261,12 @@
   }
 }
 
-@utility fill-primary {
+@utility clay-primary {
   background-image: var(--gradient-primary);
   color: var(--primary-foreground);
 }
 
-@utility fill-mint {
+@utility clay-mint {
   background-image: var(--gradient-mint);
   color: oklch(1 0 0);
 }
